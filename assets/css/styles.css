@@ -1,0 +1,19 @@
+/* FONT */
+
+/* COMPONENTS */
+
+@import "./header.css";
+@import "./main.css";
+@import "./store-logo.css";
+@import "./footer.css";
+@import "./codeReuse.css";
+@import "./responsive-layout.css";
+
+/* RESET CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}

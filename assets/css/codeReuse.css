@@ -1,0 +1,18 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-gap: 20px;
+
+    padding: 0px 20px 0px 20px;
+
+    justify-content: center;
+
+    grid-template-areas:
+    "sidenav effect effect"
+    "sidenav effect effect"
+    "store-logo-title store-logo-title store-logo-title"
+    "store-logo store-logo store-logo"
+    "footer footer footer"
+}

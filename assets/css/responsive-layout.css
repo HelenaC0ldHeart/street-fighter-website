@@ -1,0 +1,53 @@
+@media (max-width: 842px) {
+    .container {
+     grid-template-areas:
+     "sidenav effect"
+     "sidenav effect"
+     "sidenav effect"
+     "sidenav effect"
+     "store-logo-title store-logo-title"
+     "store-logo store-logo"
+     "footer footer";
+    }
+
+    .sidenav {
+        height: 1325px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        height: 300px;
+        box-shadow: 0px 5px 20px #000;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        background-color: #fff;
+        width: 250px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-areas:
+        "sidenav"
+        "effect"
+        "effect"
+        "effect"
+        "effect"
+        "store-logo-title"
+        "store-logo"
+        "footer"
+    }
+
+    .sidenav {
+        height: 200px;
+    }
+}

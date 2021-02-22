@@ -1,0 +1,14 @@
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li img {
+    height: auto;
+    width: 250px;
+    margin: 20px 0px 0px 20px;
+}
+
+.footer p {
+    margin: 20px 0px 0px 20px;
+    color: #fff;
+}
