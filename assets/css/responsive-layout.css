@@ -1,6 +1,29 @@
+
+@media (max-width: 1210px) {
+    .container {
+        grid-template-areas:
+        "sidenav effect effect"
+        "sidenav effect effect"
+        "sidenav effect effect"
+        "sidenav effect effect"
+        "sidenav effect effect"
+        "store-logo-title store-logo-title store-logo-title"
+        "store-logo store-logo store-logo"
+        "footer footer footer"
+    }
+}
+
+
+
+
 @media (max-width: 842px) {
     .container {
      grid-template-areas:
+     "sidenav effect"
+     "sidenav effect"
+     "sidenav effect"
+     "sidenav effect"
+     "sidenav effect"
      "sidenav effect"
      "sidenav effect"
      "sidenav effect"
@@ -38,6 +61,11 @@
     .container {
         grid-template-areas:
         "sidenav"
+        "effect"
+        "effect"
+        "effect"
+        "effect"
+        "effect"
         "effect"
         "effect"
         "effect"
