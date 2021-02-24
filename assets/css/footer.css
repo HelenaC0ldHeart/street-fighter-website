@@ -5,10 +5,61 @@
 .footer ul li img {
     height: auto;
     width: 250px;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .footer p {
     margin: 20px 0px 0px 20px;
     color: #fff;
+}
+
+
+
+.footer {
+    width: auto;
+    height: 300px;
+
+    background-color: #333;
+    border-radius: 20px;
+
+    grid-area: "footer";
+    grid-column: footer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer img {
+    border-radius: 0px;
+}
+
+.footer .esrb-privacy {
+    width: auto;
+    height: 125px;
+}
+
+.footer .esrb-teen {
+    width: auto;
+    height: 90px;
+}
+
+.esrb-teen {
+    margin-left: 320px;
+    margin-bottom: 32px;
+    margin-right: 10px;
+}
+
+.esrb-privacy {
+    margin-right: 0px;
+}
+
+.footer a {
+    color: #29acf7;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #39c;
 }
